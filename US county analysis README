@@ -1,0 +1,7 @@
+This project will analyze and try to find if there is a correlation between population density and community health in US counties. 
+In particular, community health will be measured using county data on several variables, which include the % of residents with fair or poor health, 
+the average number of mentally unhealthy days, the average number of physically unhealthy days, % of adults with diabets, and the suicide rate. 
+These variables balance between mental and physical health indicators, as both are important to overall community wellbeing. 
+
+The data used in my analysis come from John Davis’s dataset, a Biomechanics PhD Student at Indiana University, which gathered weather, health, and socioeconomic data 
+from 3142 US counties in 2020 to identify the most COVID-vulnerable communities in the country.
