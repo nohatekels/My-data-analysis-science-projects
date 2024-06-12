@@ -1,4 +1,4 @@
-https://play.library.utoronto.ca/watch/68f2400fd50d62a3feb1de06d212ca57  - video link describing the project
+https://youtu.be/UCAkHINEBT8  - video link describing the project
 
 This project will analyze and try to find if there is a relationship between rates of living alone and mental health/addiction related hospital admission rates in Toronto communities
 
