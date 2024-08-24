@@ -1,0 +1,3 @@
+The project focuses on processing and validating airline ticket information using Python. 
+The program extracts and validates various details from encoded ticket strings, such as flight dates, airport codes, seat information, and frequent flyer numbers.
+
