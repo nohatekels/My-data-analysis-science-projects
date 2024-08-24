@@ -1,0 +1,48 @@
+The goal of this assignment is to work with real-world data regarding bridge conditions in Ontario, extracted from Ontario Bridge Conditions Dataset. The provided Python code allows querying and manipulating bridge data, including calculating distances, identifying bridges within a specific radius, and evaluating the condition of bridges based on the Bridge Condition Index (BCI).
+
+Project Structure
+The project consists of the following main components:
+
+Constants and Sample Data:
+
+Predefined constants are used to identify columns in the bridge data.
+Sample data (EXAMPLE_BRIDGES) is provided to help with testing and understanding the functions.
+Helper Functions:
+
+calculate_distance(lat1, lon1, lat2, lon2): Calculates the distance between two geographic locations using the haversine formula.
+Querying the Data:
+
+find_bridge_by_id(bridges, bridge_id): Finds a bridge by its ID.
+find_bridges_in_radius(bridges, lat, lon, radius, exclusions): Identifies bridges within a specific radius from a location.
+get_bridge_condition(bridges, bridge_id): Retrieves the most recent BCI score for a bridge.
+calculate_average_condition(bridge, start, stop): Calculates the average BCI score of a bridge over a specified time period.
+Mutating the Data:
+
+inspect_bridge(bridges, bridge_id, inspect_date, inspect_bci): Updates bridge inspection data.
+rehabilitate_bridge(bridges, bridge_ids, new_year, is_major): Updates rehabilitation data for bridges.
+Algorithms:
+
+find_worst_bci(bridges, bridge_ids): Finds the bridge with the worst BCI score.
+map_route(bridges, lat, lon, max_bridges, radius): Maps out an inspection route for an inspector based on bridge conditions and proximity.
+Reading and Cleaning Data:
+
+clean_length_data(raw_length): Cleans and converts bridge length data.
+clean_span_data(raw_spans): Cleans and converts bridge span data.
+clean_bci_data(bci_years, start_year, bci_scores): Cleans BCI data, converting it into a usable format.
+clean_data(data, start_year): Cleans raw bridge data and prepares it for use.
+read_data(filename): Reads bridge data from a CSV file and cleans it.
+Installation and Setup
+Prerequisites:
+
+Python 3.x
+Required files: a2_checker.py, checker_generic.py, and the pyta directory should be in the same directory as this project file.
+Running the Project:
+
+Un-comment the relevant lines at the end of the script to run tests or to process actual datasets.
+Example datasets are provided as bridge_data_small.csv and bridge_data_large.csv.
+Usage
+Inspect Bridges: Update inspection data using inspect_bridge.
+Query Bridges: Find bridges by ID, within a specific radius, or evaluate their conditions using the querying functions.
+Route Mapping: Create an inspection route with the map_route function.
+Data Source
+The data used in this assignment is a subset of the data found in the Ontario Bridge Conditions Dataset available here.
